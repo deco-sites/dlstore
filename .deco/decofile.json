@@ -3648,17 +3648,14 @@
     ],
     "__resolveType": "vtex/workflows/events.ts"
   },
-  "vtex": {
-    "account": "bravtexfashionstore",
-    "platform": "vtex",
-    "publicUrl": "fashion.bravtexstores.com.br",
-    "salesChannel": "1",
-    "__resolveType": "decohub/apps/vtex.ts",
-    "defaultSegment": {
-      "channelPrivacy": "public"
-    }
-  },
   "weather": {
     "__resolveType": "decohub/apps/weather.ts"
+  },
+  "shopify": {
+    "__resolveType": "decohub/apps/shopify.ts",
+    "adminAccessToken": {},
+    "platform": "shopify",
+    "storeName": "mario-eletro.myshopify.com",
+    "storefrontAccessToken": "ec113445ac6d0d18d63804c007a2046f"
   }
 }
